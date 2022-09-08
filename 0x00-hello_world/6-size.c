@@ -16,9 +16,6 @@ double doubleType;
 char charType;
 
 
-
-
-
 printf("Size of int: %ld bytes\n", sizeof(integerType));
 
 printf("Size of float: %ld bytes\n", sizeof(floatType));
