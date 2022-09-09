@@ -12,7 +12,8 @@ putchar(c);
 }
 for (c = 'a' ; c = 'f' ; c++)
 {
-putchar('\n');
+putchar(c);
 }
+putchar('\n');
 return (0);
 }
