@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char lowercase;
-for (lowercase = "a" ; lowercase <= "z" ; lowercase++)
+char c;
+for(c = "a" ; c <= "z" ; c++)
 {
-putchar(lowercase);
+putchar(c);
 }
 putchar("\n");
 return (0);
