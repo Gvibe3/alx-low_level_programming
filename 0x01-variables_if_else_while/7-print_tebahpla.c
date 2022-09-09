@@ -3,7 +3,7 @@
 *main - reverse alphabet
 *Return: Always 0
 */
-int main(0)
+int main(void)
 {
 char g;
 for (g = 'z' ; g >= 'a'; i--)
