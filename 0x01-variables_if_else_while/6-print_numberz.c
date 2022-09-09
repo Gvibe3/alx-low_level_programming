@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
-*main - single digit with base 10
+*main - numbers from 0 to 9
 *Return: Always 0
 */
-int main()
+int main(void)
 {
-char n;
-for(n = '0'; n <= '9'; n++)
+int n;
+for (n ='0'; n <= '9'; n++)
+
 {
 putchar(n);
 }
