@@ -1,4 +1,4 @@
-#include <stdiio.h>
+#include <stdio.h>
 /**
 *main - lowercase with some exception
 *Return: Always 0
