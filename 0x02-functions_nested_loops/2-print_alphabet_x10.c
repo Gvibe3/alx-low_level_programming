@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_alphabet_x10(void) - output 10 times
+*print_alphabet_x10 - output 10 times
 *Return: x10 a-z
 */
 void print_alphabet_x10(void)
@@ -14,6 +14,6 @@ for (n = 'a'; n <= 'z'; n++)
 _putchar(n);
 }
 co++;
-_putchar('\n')
+_putchar('\n');
 }
 }
