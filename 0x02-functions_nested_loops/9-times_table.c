@@ -15,13 +15,14 @@ _putchar('0');
 _putchar(',');
 _putchar(' ');
 }
-for (cone = '1'; cone <= '9'; cone++)
-{
 d = (rone * cone);
 }
-if ((d / 10) > 0)
-{
+if (d <= 9)
+_putchar('');
+else
 _putchar((d / 10) + '0');
+_putchar((d %  / 10) + '0');
 }
 _putchar('\n');
+}
 }
