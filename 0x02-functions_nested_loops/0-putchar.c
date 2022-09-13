@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*main - out put pput char
-*RETURN: Always 0
+*main - output putchar
+*Return: Always 0
 */
 int main(void)
 {
