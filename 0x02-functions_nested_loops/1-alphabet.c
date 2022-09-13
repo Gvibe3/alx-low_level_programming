@@ -8,8 +8,8 @@ char $c;
 {
 for ($c = 'a'; $c = 'z'; $c++)
 {
-_putchar($c);
+print_alphabet($c);
 }
-_putchar('\n');
+print_alphabet('\n');
 return (0);
 }
