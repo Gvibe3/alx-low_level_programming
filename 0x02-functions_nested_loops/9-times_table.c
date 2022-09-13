@@ -6,12 +6,12 @@
 * add extra space past single digit
 */
 void times_table(void)
-for (rone = 0; rone <= 9; rone++)
+for (rone = '0'; rone <= '9'; rone++)
 {
 _putchar('0');
 _putchar(',');
 _putchar(' ');
-for (cone = 1; cone <= 9; cone++)
+for (cone = '1'; cone <= '9'; cone++)
 {
 d = (rone * cone);
 if ((d / 10) > 0)
