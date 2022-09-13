@@ -6,7 +6,10 @@
 */
 int _abs(int)
 {
-int _abs(int ab)
+  if (c > 0 || c == 0)
 {
-return (ab * ((ab > 0) - (ab < 0)));
+return (c);
+}
+else
+return (c * -1);
 }
