@@ -4,12 +4,11 @@
 *Return: Always 0
 */
 void print_alphabet(void)
-char j;
+char $j;
 {
-for (j = 'a'; j = 'z'; j++)
+for ($j = 'a'; $j = 'z'; $j++)
 {
-_putchar(j);
+_putchar($j);
 }
 _putchar('\n');
-return (0);
 }
