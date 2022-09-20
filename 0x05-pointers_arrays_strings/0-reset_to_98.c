@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
 * reset_to_98 -point to 98
 *@n:A pointer to int n
