@@ -6,10 +6,10 @@
 *@b : pointer to an int b
 *Return : Always 0
 */
-void swap_int(int *a, int *b)
+void swap_int(int *a, int *b);
 {
 int d;
 d = *a;
-* a = *b;
-* b = *f;
+*a = *b;
+*b = *d;
 }
