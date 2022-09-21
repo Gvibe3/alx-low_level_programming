@@ -3,12 +3,13 @@
 /**
 *_strlen -  length of string
 *@s: string
-*Return: length
+*Return: inc length
 */
 int _strlen(char *s)
 {
-size_t length = 0;
-while (*str++)
-length++;
-return (length);
+int count, inc;
+inc = 0;
+for (count = 0; s[count] != '\0'; count++)
+inc++;
+return (inc);
 }
