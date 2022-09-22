@@ -1,20 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *string_toupper- to write lowerletter to uppercase
-*@hi: input string
-*Return: output
+*@c: input string
+*Return: changed string
 */
 char *string_toupper(char *)
 {
-int index;
-int desp = 'a' - 'A';
-for (index = 0 ; hi[index] != '\0'; index++)
+int i = 0;
+while (c[i] != '\0')
 {
-if(hi[index >= 'a' && hi[index] <= 'z')
-{
-hi[index] = hi[index] - desp;
+if (c[i] > 96 && c[i] < 123)
+c[i] -= 32;
+i++;
 }
-}
-return(hi);
+return (c);
 }

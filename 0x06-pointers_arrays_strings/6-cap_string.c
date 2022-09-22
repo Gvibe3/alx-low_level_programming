@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *cap_string - capitalize words in the string
