@@ -1,29 +1,31 @@
 #include "main.h"
 /**
-*cap_string - capitalize words in the string
-*@entry : input string
-*Return: output
+* cap_string - capitalizes chars in a string following a separator
+* @c: character string pointer
+* Return: char pointer
 */
-char *cap_string(char *)
+char *cap_string(char *c)
 {
-int i = 0, j;
-char a[] = " \t\n,;.!?\"(){}";
-while (*(s + i))
+int i = 0, j,
+sep[] = {32, '\t', 11,  '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+if (c[0] > 96 && c[0] < 123)
+c[0] -= 32;
+while (c[i] != '\0')
 {
-if (*(s + i) >= 'a' && *(s + i) <= 'z')
+if (c[i] > 96 && c[i] < 123)
 {
-if (i == 0)
-*(s + i) -= 'a' - 'A';
-else
+j = 0;
+while (j < 14)
 {
-for (j = 0; j <= 12; j++)
+if (c[i - 1] == sep[j])
 {
-if (a[j] == *(s + i - 1))
-*(s + i) -= 'a' - 'A';
+c[i] -= 32;
+break;
 }
+j++;
 }
 }
 i++;
 }
-return (s);
+return (c);
 }
