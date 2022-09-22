@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *_strcat- to concatnates string
 *@src: input source
