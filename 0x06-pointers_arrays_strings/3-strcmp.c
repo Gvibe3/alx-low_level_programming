@@ -1,18 +1,16 @@
 #include "main.h"
 /**
-*_strcmp- function to copy strings
-*@s1: first string
-*@s2: second string
-*Return :  if s1 == s2 ,0
-*          if s1 < s2 ,negative
-*          if s1 > s2 ,postive
+* _strcmp - function to copy string
+* @s1: first string to compare
+* @s2: second string to compare
+* Return: int
 */
 int _strcmp(char *s1, char *s2)
 {
 while (*s1 && *s1 == *s2)
 {
-s1++;
-s2++;
+++s1;
+++s2;
 }
-return (*s1 - *s2);
+return ((int)(unsigned char)(*s1) - (int)(unsigned char)(*s2));
 }
