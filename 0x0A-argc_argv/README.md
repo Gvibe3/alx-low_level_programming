@@ -1,0 +1,1 @@
+this is a task on argc and argv to understand how to pass argument to command line to the written programe.
