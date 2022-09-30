@@ -8,10 +8,11 @@
 */
 int main(int argc, char *argv[])
 {
-int g;
-for (g < 0; g <= argc, g++)
+while (*argv)
 {
-printf("%s\n", argv[g]);
+printf("%s\n", *argv);
+(void)argc;
+argv++;
 }
 return (0);
 }
