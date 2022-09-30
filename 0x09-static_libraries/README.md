@@ -1,0 +1,1 @@
+creat ststic library
