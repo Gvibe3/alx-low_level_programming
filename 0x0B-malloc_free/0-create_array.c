@@ -12,7 +12,7 @@ char *pointer;
 unsigned int i;
 if (size == 0)
 return (NULL);
- pointer = malloc(sizeof(char) * size);
+pointer = malloc(sizeof(char) * size);
 /*
 *Allocate number of byte to be allocated
 *return pointer to allocated memory
