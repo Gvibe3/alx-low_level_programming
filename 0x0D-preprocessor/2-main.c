@@ -5,6 +5,6 @@
 */
 int main(void)
 {
-printf("the filename is:%s", _FILE_);
+printf("the filename is:%s\n", _FILE_);
 return (0);
 }
