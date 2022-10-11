@@ -4,15 +4,15 @@
 #include <stdio.h>
 /**
 *struct dog-info about the dog
-*@name-name of the dog
-*@age-age of the dog
-*@owner-owner of the dog
+*@name:name of the dog
+*@age:age of the dog
+*@owner:owner of the dog
 */
 struct dog
 {
-  char *name;
-  char *owner;
-  float age;
+char *name;
+char *owner;
+float age;
 };
 /**
 *dog_t-Typedef structdog
